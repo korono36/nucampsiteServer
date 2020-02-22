@@ -4,6 +4,8 @@ const campsiteRouter = express.Router();
 const campsiteIdRouter = express.Router();
 const Campsite = require('../models/campsite');
 
+campsiteRouter.route('/:campsiteId/comments')
+
 campsiteIdrouter.use(bodyParser.json());
 campsiteRouter.use(bodyParser.json());
 
